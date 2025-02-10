@@ -30,7 +30,7 @@ export default function Header() {
 
       {/* Mobile Menu Button */}
       <button
-        className="md:hidden text-gray-50 hover:text-orange-900"
+        className="md:hidden text-gray-500 hover:text-orange-900"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         {isMenuOpen ? <PiXBold size={32} /> : <PiListBold size={32} />}
