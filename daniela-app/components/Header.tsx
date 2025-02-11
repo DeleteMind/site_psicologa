@@ -16,14 +16,14 @@ export default function Header() {
     <header className="z-[10000] sticky top-0 w-full flex justify-between items-center p-6 bg-white">
       {/* Logo */}
       <Link
-        className="hover:ring-2 hover:ring-pink-300 rounded-full shrink-0"
+        className="hover:ring-2 hover:ring-orange-900  shrink-0"
         href="/"
       >
         <Image
-          className="bg-zinc-100 rounded-full"
-          src="/pictures/logo.png"
-          alt="Marys Bean"
-          width={100}
+          className="bg-zinc-100"
+          src="/Screenshot 2025-02-11 135124.jpg"
+          alt="Logo"
+          width={200}
           height={100}
         />
       </Link>
