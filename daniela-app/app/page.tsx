@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-center w-full">
       <div className="relative bg-white w-full flex justify-center">
         <Image
-          className="mb-10"
+          className="mb-10 object-cover"
           src="/pexels-alex-green-5699456 (1).jpg"
           alt="Description of the image"
           width={1200} // Set the desired width
@@ -16,7 +16,7 @@ export default function Home() {
         <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-orange-50 text-4xl  lg:text-6xl 2xl:mt-4 font-bold text-center">
           <h1>Consultas de psicologia</h1>
         </div>
-        <button className="absolute bottom-14 center-4  text-orange-50 border-2 border-orange-50 px-4 py-2 rounded-sm  hover:bg-orange-50 hover:text-orange-900">
+        <button className="absolute bottom-16 center-4  text-orange-50 border-2 border-orange-50 px-4 py-2 rounded-sm  hover:bg-orange-50 hover:text-orange-900">
           <p>Marca já</p>
         </button>
       </div>
