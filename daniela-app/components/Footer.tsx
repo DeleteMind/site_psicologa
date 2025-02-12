@@ -11,7 +11,7 @@ export default function Footer() {
                 <div className="flex flex-col gap-2 items-center justify-center">
                     <h1 className="text-2xl font-bold">Contactos</h1>
                     <p>Telefone: 913 444 303</p>
-                    <p>Email: daniela.s.sousa2@gmail.com</p>
+                    <p>Email: danielasousa.psicoterapia@gmail.com</p>
                 </div>
                 <div className="flex flex-row justify-center gap-4 items-center">
                     <h2 className="text-xl md:text-2xl">Redes Socias</h2>
@@ -26,7 +26,7 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-            <p className="flex justify-center w-full bg-white p-2">©2025-{year} by Daniela Sousa. Developed by Filipe Cordeiro.</p>
+            <p className="text-sm flex justify-center w-full bg-white p-2">©2025-{year} by Daniela Sousa. Developed by Filipe Cordeiro.</p>
         </footer>
     );
 }
