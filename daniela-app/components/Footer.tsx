@@ -26,7 +26,7 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-            <p className="text-sm flex justify-center w-full bg-white p-2">©2025-{year} by Daniela Sousa. Developed by Filipe Cordeiro.</p>
+            <p className="text-xs flex justify-center w-full bg-white p-2">©2025-{year} by Filipe Cordeiro.</p>
         </footer>
     );
 }

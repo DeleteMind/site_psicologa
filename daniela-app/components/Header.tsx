@@ -16,7 +16,7 @@ export default function Header() {
     <header className="z-[10000] sticky top-0 w-full flex justify-between items-center p-6 bg-white">
       {/* Logo */}
       <Link
-        className="hover:ring-2 hover:ring-orange-900  shrink-0"
+        className="shrink-0"
         href="/"
       >
         <Image
