@@ -30,8 +30,8 @@ export default function sobrePage() {
       {/* Formação and image */}
       <h2>Formação</h2>
       <li>Mestrado Integrado em Psicologia Clínica, núcleo de Psicoterapia Cognitiva-Comportamental e Integrativa, pela Faculdade de Psicologia da Universidade de Lisboa</li>
-      <li>Formação em "Intervenção Psicológica nas Dependências Com e Sem Substâncias"</li>
-      <li>Formação em "Intervenção Psicológica no Luto"</li>
+      <li>Formação em &quot;Intervenção Psicológica nas Dependências Com e Sem Substâncias&quot;</li>
+      <li>Formação em &quot;Intervenção Psicológica no Luto&quot;</li>
       <li>Treino introdutório em Somatic Experiencing </li>
       <li>Participação em workshops, colóquios e conferências: &quot;Workshop Chronic/Recurrent Suicidality: Implementing Interpersonal Reconstructive Therapy for Conceptualization, Safety Planning, & Reconstruction&quot;,&quot;Workshop Interpersonal Reconstructive Therapy for Facilitating Response to Cognitive-Behavioral Therapy with Challenging Cases.&quot;, &quot;Workshop: Therapist Self-care, the Therapeutic Relationships that Work and Therapist Responsiveness&quot;; &quot;Workshop: Case Conceptualization for Personality Disorders: How to Foster Therapist Responsiveness&quot;, &quot;Society for the Exploration of Psychotherapy Integration 35th Annual Conference&quot;;  e &quot;Seminário Fome Emocional e Compulsiva&quot;</li>
       <li>Membro da Society for the Exploration of Psychotherapy Integration</li>
