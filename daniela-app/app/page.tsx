@@ -26,7 +26,7 @@ export default function Home() {
           <h1 className="text-orange-900 font-bold text-4xl">Sobre mim</h1>
           <p>Sou a Daniela Sousa, psicóloga Clínica, pela Faculdade de Psicologia da Universidade de Lisboa. Mestra em área de Psicoterapia Cognitiva - Comportamental e Integrativa.</p>
           <p>Por acreditarmos na nossa singularidade, evito catalogações e valorizo a adaptação às necessidades de cada pessoa. Tenho um interesse especial pelas relações humanas e na forma como o nosso sistema nervoso se transforma à medida que construímos novas conexões interpessoais.</p>
-          <button className=" mt-auto text-zinc-500 border-2 border-orange-50 px-4 py-2 rounded-sm  hover:bg-orange-50 hover:text-orange-900">Saber mais</button>
+          <button className="mt-auto lg:self-start text-zinc-500 border-2 border-orange-50 py-2 px-4 rounded-sm  hover:bg-orange-50 hover:text-orange-900">Saber mais</button>
         </div>
         <Image
           className=""
