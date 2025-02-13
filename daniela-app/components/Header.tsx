@@ -38,19 +38,19 @@ export default function Header() {
 
       {/* Nav Links - Desktop */}
       <nav className="hidden md:flex flex-row gap-4 flex-wrap justify-center">
-        <NavLink href="/sobre">Sobre</NavLink>
-        <NavLink href="/consultas">Consultas</NavLink>
-        <NavLink href="/recursos">Recursos</NavLink>
-        <NavLink href="/contactos">Contactos</NavLink>
+        <NavLink href="/sobre">SOBRE</NavLink>
+        <NavLink href="/consultas">CONSULTAS</NavLink>
+        <NavLink href="/recursos">RECURSOS</NavLink>
+        <NavLink href="/contactos">CONTACTOS</NavLink>
       </nav>
 
       {/* Nav Links - Mobile */}
       {isMenuOpen && (
         <nav className="md:hidden absolute top-full left-0 right-0 flex flex-col items-center gap-2 py-4 bg-white text-lg">
-          <NavLink href="/sobre" onClick={handleLinkClick}>Sobre</NavLink>
-          <NavLink href="/consultas" onClick={handleLinkClick}>Consultas</NavLink>
-          <NavLink href="/recursos" onClick={handleLinkClick}>Recursos</NavLink>
-          <NavLink href="/contactos" onClick={handleLinkClick}>Contactos</NavLink>
+          <NavLink href="/sobre" onClick={handleLinkClick}>SOBRE</NavLink>
+          <NavLink href="/consultas" onClick={handleLinkClick}>CONSULTAS</NavLink>
+          <NavLink href="/recursos" onClick={handleLinkClick}>RECURSOS</NavLink>
+          <NavLink href="/contactos" onClick={handleLinkClick}>CONTACTOS</NavLink>
         </nav>
       )}
     </header>
