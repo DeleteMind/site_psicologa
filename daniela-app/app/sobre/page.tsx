@@ -46,7 +46,7 @@ export default function SobrePage() {
         <h2 className="text-2xl font-bold">Formação</h2>
         <ul className="list-disc pl-6">
           <li>Mestrado Integrado em Psicologia Clínica...</li>
-          <li>Formação em "Intervenção Psicológica nas Dependências Com e Sem Substâncias"</li>
+          <li>Formação em &quot;Intervenção Psicológica nas Dependências Com e Sem Substâncias&quot;</li>
           <li>Treino introdutório em Somatic Experiencing</li>
           <li>Membro da Society for the Exploration of Psychotherapy Integration</li>
           <li>Formadora Certificada pelo Instituto de Emprego e Formação Profissional (IEFP)</li>
