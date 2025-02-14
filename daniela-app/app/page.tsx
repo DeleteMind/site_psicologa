@@ -37,27 +37,27 @@ export default function Home() {
           style={{ height: "512px", width: "500px" }}
         />
       </div>
-      <section className="border-t-2 border-gray-500/50 border w-full flex flex-col items-center gap-8 text-center">
-        <h1 className="text-2xl mt-8">Áreas de intervenção</h1>
-        <ul className="list-none text space-y-4">
-          <img src="/Icons/mood-swings.png" alt="Description of the image" />
-          <li>Perturbações de Humor</li>
-          <img src="/Icons/mental-disorder.png" alt="Description of the image" />
-          <li>Perturbações de Ansiedade</li>
-          <img src="/Icons/personality-disorder.png" alt="Description of the image" />
-          <li>Perturbação de Personalidade Borderline</li>
-          <img src="/Icons/emotional.png" alt="Description of the image" />
-          <li>Perturbação Dependente de Personalidade</li>
-          <img src="/Icons/stress.png" alt="Description of the image" />
-          <li>Problemas interpessoais</li>
-          <img src="/Icons/self.png" alt="Description of the image" />
-          <li>Baixa auto-estima</li>
-          <img src="/Icons/work.png" alt="Description of the image" />
-          <li>Crises de vida</li>
-          <img src="/Icons/emotional (1).png" alt="Description of the image" />
-          <li>Distress emocional</li>
+      <section className="border-t-2 border-gray-500/50 w-3/4 flex flex-col items-center gap-8 text-center my-12">
+        <h1 className="text-4xl my-8">Áreas de intervenção</h1>
+        <ul className="list-none space-y-4">
+          {[
+            { src: "/Icons/mood-swings.png", text: "Perturbações de Humor" },
+            { src: "/Icons/mental-disorder.png", text: "Perturbações de Ansiedade" },
+            { src: "/Icons/personality-disorder.png", text: "Perturbação de Personalidade Borderline" },
+            { src: "/Icons/emotional.png", text: "Perturbação Dependente de Personalidade" },
+            { src: "/Icons/stress.png", text: "Problemas interpessoais" },
+            { src: "/Icons/self.png", text: "Baixa auto-estima" },
+            { src: "/Icons/work.png", text: "Crises de vida" },
+            { src: "/Icons/emotional (1).png", text: "Distress emocional" }
+          ].map((item, index) => (
+            <li key={index} className="flex flex-col items-center gap-4">
+              <img src={item.src} alt={item.text} className="w-8 h-8" />
+              <span>{item.text}</span>
+            </li>
+          ))}
         </ul>
       </section>
+
     </main>
   );
 }
