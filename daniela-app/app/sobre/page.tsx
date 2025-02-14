@@ -6,7 +6,7 @@ export default function SobrePage() {
       {/* Sobre mim e imagem */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="space-y-4 ">
-          <h1 className="text-2xl font-bold">DANIELA SOUSA</h1>
+          <h1 className="text-2xl font-bold">SOBRE MIM</h1>
           <div className="space-y-2 text-justify">
             <p>Sou a Daniela Sousa, Psicóloga Clínica, mestre em Psicoterapia Cognitiva - Comportamental e Integrativa, pela Faculdade de Psicologia da Universidade de Lisboa. Interesso-me especialmente pelas relações humanas e pela forma como o nosso sistema nervoso se modifica à medida que vamos criando novas relações interpessoais. </p>
             <p>Na sala da terapia, importa-me acolher cada pessoa no seu todo, com aceitação e curiosidade para conhecer as suas vulnerabilidades, defesas e recursos. Considero importante ajustar as formas de intervenção às individualidades de cada um, por sermos todos únicos e não gostar de catalogar. É na relação terapêutica que se cria espaço para a consciência dos processos internos e, se potencia a mudança.</p>
@@ -34,7 +34,7 @@ export default function SobrePage() {
           className="rounded-lg shadow-md w-full h-auto"
         />
         <div className="space-y-2">
-          <h2 className="text-2xl font-bold">Experiência profissional</h2>
+          <h2 className="text-2xl font-bold">EXPERIÊNCIA PROFISSIONAL</h2>
           <ul className="">
             <li>Prática Privada na Psinove - Inovamos a Psicologia;</li>
             <li>Prática Privada em consultório em Leiria;</li>
@@ -47,7 +47,7 @@ export default function SobrePage() {
       {/* Formação */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-12">
         <div className="space-y-2 text-justify">
-          <h3 className="text-2xl font-bold">Síntese Curricular</h3>
+          <h3 className="text-2xl font-bold">SÍNTESE CURRICULAR</h3>
           <ul className="list-">
             <li>- Mestrado Integrado em Psicologia Clínica, núcleo de Psicoterapia Cognitiva-Comportamental e Integrativa, pela Faculdade de Psicologia da Universidade de Lisboa;</li>
             <li>- Formação em &quot;Intervenção Psicológica nas Dependências Com e Sem Substâncias&quot;;</li>
