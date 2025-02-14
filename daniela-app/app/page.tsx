@@ -50,7 +50,7 @@ export default function Home() {
             { src: "/Icons/emotional (1).png", text: "Distress emocional" }
           ].map((item, index) => (
             <li key={index} className="flex flex-col items-center gap-4">
-              <img src={item.src} alt={item.text} className="w-8 h-8" />
+              <Image src={item.src} alt={item.text} className="w-8 h-8" />
               <span>{item.text}</span>
             </li>
           ))}
