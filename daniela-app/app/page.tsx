@@ -37,6 +37,27 @@ export default function Home() {
           style={{ height: "512px", width: "500px" }}
         />
       </div>
+      <section className="border-t-2 border-gray-500/50 border w-full flex flex-col items-center gap-8 text-center">
+        <h1 className="text-2xl mt-8">Áreas de intervenção</h1>
+        <ul className="list-none text space-y-4">
+          <img src="/Icons/mood-swings.png" alt="Description of the image" />
+          <li>Perturbações de Humor</li>
+          <img src="/Icons/mental-disorder.png" alt="Description of the image" />
+          <li>Perturbações de Ansiedade</li>
+          <img src="/Icons/personality-disorder.png" alt="Description of the image" />
+          <li>Perturbação de Personalidade Borderline</li>
+          <img src="/Icons/emotional.png" alt="Description of the image" />
+          <li>Perturbação Dependente de Personalidade</li>
+          <img src="/Icons/stress.png" alt="Description of the image" />
+          <li>Problemas interpessoais</li>
+          <img src="/Icons/self.png" alt="Description of the image" />
+          <li>Baixa auto-estima</li>
+          <img src="/Icons/work.png" alt="Description of the image" />
+          <li>Crises de vida</li>
+          <img src="/Icons/emotional (1).png" alt="Description of the image" />
+          <li>Distress emocional</li>
+        </ul>
+      </section>
     </main>
   );
 }
