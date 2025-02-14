@@ -29,12 +29,11 @@ export default function Home() {
           <button className="mt-auto lg:self-start text-zinc-500 border-2 border-orange-50 py-2 px-4 rounded-sm  hover:bg-orange-50 hover:text-orange-900">Saber mais</button>
         </div>
         <Image
-          className=""
-          src="/pexels-alex-green-5699456 (1).jpg"
+          className="w-full max-w-[500px] h-auto object-cover"
+          src="/Snapinst.app_368680928_270420565750050_196321165440213060_n_1080.jpg"
           alt="Description of the image"
           width={500}
-          height={300}
-          style={{ height: "512px", width: "500px" }}
+          height={512}
         />
       </div>
       <section className="border-t-2 border-gray-500/50 w-3/4 flex flex-col items-center gap-8 text-center my-12">
