@@ -8,7 +8,7 @@ export default function SobrePage() {
         <div className="flex flex-col gap-4 sm:gap-16 lg:w-1/2 mb-6">
           <h1 className="text-4xl sm:text-8xl">Daniela Santos <br /> Sousa</h1>
           <div className="space-y-2 sm:space-y-4">
-            <h2 className="text-xl sm:text-2xl">Psicóloga Clínica</h2>
+            <h2 className="border-b text-center w-52 text-xl sm:text-2xl">Psicóloga Clínica</h2>
             <p className="text-sm sm:text-base">Cédula Profissional nº26868 da Ordem dos Psicólogos Portugueses</p>
           </div>
         </div>
@@ -19,7 +19,7 @@ export default function SobrePage() {
             alt="Sobre"
             width={500}
             height={1080}
-            className="rounded-lg shadow-md w-full max-w-[500px] h-auto object-cover"
+            className="rounded-lg shadow-md w-full max-w-[700px] h-auto object-cover"
           />
           <div className="space-y-2 sm:space-y-4 text-justify">
             <p className="text-sm sm:text-base">Sou a Daniela Sousa, Psicóloga Clínica, mestre em Psicoterapia Cognitiva - Comportamental e Integrativa, pela Faculdade de Psicologia da Universidade de Lisboa. Interesso-me especialmente pelas relações humanas e pela forma como o nosso sistema nervoso se modifica à medida que vamos criando novas relações interpessoais.</p>
