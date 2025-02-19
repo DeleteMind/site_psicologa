@@ -5,9 +5,8 @@ export default function SobrePage() {
     <main className="text-black text-lg flex justify-center p-4 sm:p-12 lg:mx-4 xl:mx-8">
       <section className="flex flex-col lg:flex-row">
         {/* Title */}
-        
-        <div className="flex items-center lg:items-end mx-10 p-6 flex-col gap-4 sm:gap-16 lg:w-1/2 mt-20">
-          <h1 className="text-right text-6xl lg:text-8xl ">Daniela Santos Sousa</h1>
+        <div className="flex flex-col text-right lg:mx-10 p-6 flex-col gap-4 sm:gap-16 lg:w-1/2 mt-20">
+          <h1 className=" text-6xl lg:text-8xl ">Daniela Santos Sousa</h1>
           <div className=" text-justify text-sm sm:text-base">
             <p>Sou a Daniela Sousa, Psicóloga Clínica, mestre em Psicoterapia Cognitiva - Comportamental e Integrativa, pela Faculdade de Psicologia da Universidade de Lisboa. Interesso-me especialmente pelas relações humanas e pela forma como o nosso sistema nervoso se modifica à medida que vamos criando novas relações interpessoais.</p>
             <p>Na sala da terapia, importa-me acolher cada pessoa no seu todo, com aceitação e curiosidade para conhecer as suas vulnerabilidades, defesas e recursos. Considero importante ajustar as formas de intervenção às individualidades de cada um, por sermos todos únicos e não gostar de catalogar. É na relação terapêutica que se cria espaço para a consciência dos processos internos e, se potencia a mudança.</p>
