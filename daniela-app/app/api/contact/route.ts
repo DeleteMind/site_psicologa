@@ -3,12 +3,11 @@ import nodemailer from 'nodemailer';
 export async function POST(req: Request) {
     try {
         // Get data from the request body
-        const { firstName, lastName, email, phone,  message } = await req.json();
-
+        const { firstName, lastName, email, phone, message } = await req.json();
 
         // Combine first and last name
         const name = `${firstName} ${lastName}`;
-        
+
         // Access environment variables
         const smtpHost = process.env.SMTP_HOST;
         const smtpPort = process.env.SMTP_PORT;
@@ -18,7 +17,12 @@ export async function POST(req: Request) {
         const contactEmail = process.env.CONTACT_EMAIL;
 
         // Log environment variables to ensure they are loaded correctly
-        
+console.log('SMTP_HOST:', smtpHost);
+        console.log('SMTP_PORT:', smtpPort);
+        console.log('SMTP_SECURE:', smtpSecure);
+        console.log('SMTP_USER:', smtpUser);
+        console.log('SMTP_PASS:', smtpPass);
+        console.log('CONTACT_EMAIL:', contactEmail);        
 
         // Create a transporter object using the environment variables
         const transporter = nodemailer.createTransport({
@@ -36,7 +40,7 @@ export async function POST(req: Request) {
             from: smtpUser,
             to: contactEmail,
             subject: `New Contact Form Submission from ${name}`,
-            text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+            text: `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`,
         };
 
         // Send the email
