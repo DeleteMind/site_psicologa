@@ -101,6 +101,8 @@ export default function ContactPage() {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
+            pattern="^\+?[1-9]\d{1,14}$"  // Optional validation pattern
+            
           />
         </label>
         <br />
