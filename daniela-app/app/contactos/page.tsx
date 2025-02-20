@@ -19,6 +19,7 @@ export default function ContactPage() {
     message: "",
   });
   const [status, setStatus] = useState<string>("");
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false); // New state
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -28,6 +29,9 @@ export default function ContactPage() {
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
+    if (isSubmitting) return; // Prevent multiple submissions
+    setIsSubmitting(true); // Disable further submissions
+
 
     try {
       const res = await fetch("/api/contact", {
@@ -51,6 +55,8 @@ export default function ContactPage() {
     } catch (error) {
       console.error("Error submitting form:", error);
       setStatus("Error sending message.");
+    } finally {
+      setIsSubmitting(false); // Re-enable the button regardless of success or error
     }
   };
 
@@ -102,7 +108,7 @@ export default function ContactPage() {
             value={formData.phone}
             onChange={handleChange}
             pattern="^\+?[1-9]\d{1,14}$"  // Optional validation pattern
-            
+
           />
         </label>
         <br />
@@ -118,7 +124,9 @@ export default function ContactPage() {
         </label>
         <br />
 
-        <button type="submit">Send</button>
+        <button type="submit" disabled={isSubmitting}>
+          {isSubmitting ? "Sending..." : "Send"}
+        </button>
       </form>
       {status && <p>{status}</p>}
     </div>
