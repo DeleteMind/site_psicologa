@@ -15,7 +15,7 @@ export default function SobrePage() {
           </div>
         </div>
         {/* Image and about */}
-        <section className="mt-20 flex flex-col items-center lg:items-start gap-4 sm:gap-8 w-full lg:w-1/2">
+        <section className="mt-20 flex flex-col items-center lg:items-start gap-4 w-full lg:w-1/2">
           <Image
             src="/Snapinst.app_368680928_270420565750050_196321165440213060_n_1080.jpg"
             alt="Sobre"
@@ -24,7 +24,7 @@ export default function SobrePage() {
             className="rounded-lg shadow-md w-full max-w-[450px] h-auto object-cover"
           />
           <div className="mt-2 space-y-2">
-            <h2 className="border-b  w-52 text-xl sm:text-2xl">Psicóloga Clínica</h2>
+            <h2 className="border-b w-52 text-xl sm:text-2xl">Psicóloga Clínica</h2>
             <p className="text-sm sm:text-base">Cédula Profissional nº26868 da Ordem dos Psicólogos Portugueses</p>
           </div>
         </section>
