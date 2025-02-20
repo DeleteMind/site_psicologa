@@ -3,8 +3,12 @@ import nodemailer from 'nodemailer';
 export async function POST(req: Request) {
     try {
         // Get data from the request body
-        const { name, email, message } = await req.json();
+        const { firstName, lastName, email, phone,  message } = await req.json();
 
+
+        // Combine first and last name
+        const name = `${firstName} ${lastName}`;
+        
         // Access environment variables
         const smtpHost = process.env.SMTP_HOST;
         const smtpPort = process.env.SMTP_PORT;
