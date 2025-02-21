@@ -40,7 +40,7 @@ console.log('SMTP_HOST:', smtpHost);
             from: smtpUser,
             to: contactEmail,
             subject: `Daniela_psicologa tem uma nova mensagem de ${name}`,
-            text: `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`,
+            text: `Nome: ${name}\nTelefone: ${phone}\nEmail: ${email}\nMessagem: ${message}`,
         };
 
         // Send the email

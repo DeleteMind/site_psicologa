@@ -65,7 +65,7 @@ export default function ContactPage() {
       <h1>Contact Us</h1>
       <form onSubmit={handleSubmit}>
         <label>
-          First Name:
+          Primeiro Nome:
           <input
             type="text"
             name="firstName"
@@ -77,7 +77,7 @@ export default function ContactPage() {
         <br />
 
         <label>
-          Last Name:
+          Apelido:
           <input
             type="text"
             name="lastName"
@@ -101,20 +101,19 @@ export default function ContactPage() {
         <br />
 
         <label>
-          Phone Number:
+          Telefone:
           <input
             type="tel"
             name="phone"
             value={formData.phone}
             onChange={handleChange}
             pattern="^\+?[1-9]\d{1,14}$"  // Optional validation pattern
-
           />
         </label>
         <br />
 
         <label>
-          Message:
+          Messagem:
           <textarea
             name="message"
             value={formData.message}
@@ -125,7 +124,7 @@ export default function ContactPage() {
         <br />
 
         <button className="border-2 border-gray-950" type="submit" disabled={isSubmitting}>
-          {isSubmitting ? "Sending..." : "Send"}
+          {isSubmitting ? "A enviar..." : "Mensagem enviada!"}
         </button>
       </form>
       {status && <p>{status}</p>}
