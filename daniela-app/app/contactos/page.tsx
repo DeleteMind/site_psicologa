@@ -124,7 +124,7 @@ export default function ContactPage() {
         </label>
         <br />
 
-        <button type="submit" disabled={isSubmitting}>
+        <button className="border-2 border-gray-950" type="submit" disabled={isSubmitting}>
           {isSubmitting ? "Sending..." : "Send"}
         </button>
       </form>
