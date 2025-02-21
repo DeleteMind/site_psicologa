@@ -41,7 +41,7 @@ export default function ContactPage() {
       });
 
       if (res.ok) {
-        setStatus("Message sent successfully!");
+        setStatus("Messagem enviada com sucesso!");
         setFormData({
           firstName: "",
           lastName: "",
@@ -124,7 +124,7 @@ export default function ContactPage() {
         <br />
 
         <button className="border-2 border-gray-950" type="submit" disabled={isSubmitting}>
-          {isSubmitting ? "A enviar..." : "Mensagem enviada!"}
+          {isSubmitting ? "A enviar..." : "Enviar"}
         </button>
       </form>
       {status && <p>{status}</p>}
