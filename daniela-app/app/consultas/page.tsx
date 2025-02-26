@@ -1,4 +1,4 @@
-export default function consultasPage() {
+export default function ConsultasPage() {
     return (
     <div className="text-white text-lg p-4">
       <h1>Página em manutenção...</h1>

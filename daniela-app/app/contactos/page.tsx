@@ -61,7 +61,8 @@ export default function ContactPage() {
   };
 
   return (
-    <div>
+    <main className="container w-full mx-auto flex flex-col gap-8">
+
       <h1>Contact Us</h1>
       <form onSubmit={handleSubmit}>
         <label>
@@ -112,8 +113,8 @@ export default function ContactPage() {
         </label>
         <br />
 
-        <label>
-          Messagem:
+        <label className="flex" >
+          Message:
           <textarea
             name="message"
             value={formData.message}
@@ -128,6 +129,7 @@ export default function ContactPage() {
         </button>
       </form>
       {status && <p>{status}</p>}
-    </div>
+
+    </main>
   );
 }
