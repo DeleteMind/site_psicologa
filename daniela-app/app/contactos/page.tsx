@@ -61,8 +61,8 @@ export default function ContactPage() {
 
   return (
     <main className=" w-full flex ">
-      <div className="w-auto mx-auto flex flex-col items-center gap-8  py-8 bg-red-700">
-        <h1>Fala comigo:</h1>
+      <div className="w-auto mx-auto flex flex-col items-center gap-8  py-8 px-8 my-8 bg-white">
+        <h1 className="text-6xl text-orange-900 bg-">Fala comigo:</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="flex flex-col">
             <label className="text-left">Primeiro Nome:</label>
