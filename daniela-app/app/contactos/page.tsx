@@ -32,7 +32,6 @@ export default function ContactPage() {
     if (isSubmitting) return; // Prevent multiple submissions
     setIsSubmitting(true); // Disable further submissions
 
-
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
@@ -61,75 +60,79 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="container w-full mx-auto flex flex-col gap-8">
+    <main className=" w-full flex ">
+      <div className="w-auto mx-auto flex flex-col items-center gap-8  py-8 bg-red-700">
+        <h1>Fala comigo:</h1>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div className="flex flex-col">
+            <label className="text-left">Primeiro Nome:</label>
+            <input
+              type="text"
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleChange}
+              required
+              className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            />
+          </div>
 
-      <h1>Contact Us</h1>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Primeiro Nome:
-          <input
-            type="text"
-            name="firstName"
-            value={formData.firstName}
-            onChange={handleChange}
-            required
-          />
-        </label>
-        <br />
+          <div className="flex flex-col">
+            <label className="text-left">Apelido:</label>
+            <input
+              type="text"
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleChange}
+              required
+              className="mt-1 block w-full border border-gray-300 rounded-sm shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            />
+          </div>
 
-        <label>
-          Apelido:
-          <input
-            type="text"
-            name="lastName"
-            value={formData.lastName}
-            onChange={handleChange}
-            required
-          />
-        </label>
-        <br />
+          <div className="flex flex-col">
+            <label className="text-left">Email:</label>
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+              className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            />
+          </div>
 
-        <label>
-          Email:
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </label>
-        <br />
+          <div className="flex flex-col">
+            <label className="text-left">Telefone:</label>
+            <input
+              type="tel"
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+              pattern="^\+?[1-9]\d{1,14}$" // Optional validation pattern
+              className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            />
+          </div>
 
-        <label>
-          Telefone:
-          <input
-            type="tel"
-            name="phone"
-            value={formData.phone}
-            onChange={handleChange}
-            pattern="^\+?[1-9]\d{1,14}$"  // Optional validation pattern
-          />
-        </label>
-        <br />
+          <div className="flex flex-col">
+            <label className="text-left">Messagem:</label>
+            <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              required
+              className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            ></textarea>
+          </div>
 
-        <label className="flex" >
-          Message:
-          <textarea
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            required
-          ></textarea>
-        </label>
-        <br />
-
-        <button className="border-2 border-gray-950" type="submit" disabled={isSubmitting}>
-          {isSubmitting ? "A enviar..." : "Enviar"}
-        </button>
-      </form>
-      {status && <p>{status}</p>}
-
+          <button
+            className="border-2 border-gray-950 px-4 py-2 rounded-md hover:bg-gray-200"
+            type="submit"
+            disabled={isSubmitting}
+          >
+            {isSubmitting ? "A enviar..." : "Enviar"}
+          </button>
+        </form>
+        {status && <p>{status}</p>}
+      </div>
     </main>
   );
 }
