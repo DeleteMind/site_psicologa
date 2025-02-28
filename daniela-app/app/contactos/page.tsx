@@ -60,77 +60,80 @@ export default function ContactPage() {
   };
 
   return (
-    <main className=" w-full flex ">
-        <form onSubmit={handleSubmit} className="space-y-4 w-auto mx-auto flex flex-col items-center gap-8  py-8 px-8 my-8 bg-white">
-        <h1 className="text-6xl text-orange-900 bg-">Fala comigo:</h1>
-          <div className="flex flex-col">
-            <label className="text-left">Primeiro Nome:</label>
-            <input
-              type="text"
-              name="firstName"
-              value={formData.firstName}
-              onChange={handleChange}
-              required
-              className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-            />
-          </div>
+    <main className="w-full flex justify-center p-4 sm:p-8">
+      <form
+        onSubmit={handleSubmit}
+        className="space-y-4 w-full max-w-lg mx-auto flex flex-col items-center gap-8 py-8 px-4 sm:px-8 my-8 bg-white rounded-md shadow-md"
+      >
+        <h1 className="text-4xl sm:text-6xl text-orange-900">Fala comigo:</h1>
+        <div className="flex flex-col w-auto">
+          <label className="text-left">Primeiro Nome:</label>
+          <input
+            type="text"
+            name="firstName"
+            value={formData.firstName}
+            onChange={handleChange}
+            required
+            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+          />
+        </div>
 
-          <div className="flex flex-col">
-            <label className="text-left">Apelido:</label>
-            <input
-              type="text"
-              name="lastName"
-              value={formData.lastName}
-              onChange={handleChange}
-              required
-              className="mt-1 block w-full border border-gray-300 rounded-sm shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-            />
-          </div>
+        <div className="flex flex-col w-auto">
+          <label className="text-left">Apelido:</label>
+          <input
+            type="text"
+            name="lastName"
+            value={formData.lastName}
+            onChange={handleChange}
+            required
+            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+          />
+        </div>
 
-          <div className="flex flex-col">
-            <label className="text-left">Email:</label>
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-              className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-            />
-          </div>
+        <div className="flex flex-col w-auto">
+          <label className="text-left">Email:</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+          />
+        </div>
 
-          <div className="flex flex-col">
-            <label className="text-left">Telefone:</label>
-            <input
-              type="tel"
-              name="phone"
-              value={formData.phone}
-              onChange={handleChange}
-              pattern="^\+?[1-9]\d{1,14}$" // Optional validation pattern
-              className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-            />
-          </div>
+        <div className="flex flex-col w-auto">
+          <label className="text-left">Telefone:</label>
+          <input
+            type="tel"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+            pattern="^\+?[1-9]\d{1,14}$" // Optional validation pattern
+            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+          />
+        </div>
 
-          <div className="flex flex-col">
-            <label className="text-left">Messagem:</label>
-            <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-              className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-            ></textarea>
-          </div>
+        <div className="flex flex-col w-full">
+          <label className="text-left">Messagem:</label>
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            required
+            className="mt-1 block w-full h-32 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+          ></textarea>
+        </div>
 
-          <button
-            className="border-2 border-gray-950 px-4 py-2 rounded-md hover:bg-gray-200"
-            type="submit"
-            disabled={isSubmitting}
-          >
-            {isSubmitting ? "A enviar..." : "Enviar"}
-          </button>
-        </form>
-        {status && <p>{status}</p>}
+        <button
+          className="w-full border-2 border-gray-950 px-4 py-2 rounded-md hover:bg-gray-200"
+          type="submit"
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? "A enviar..." : "Enviar"}
+        </button>
+      </form>
+      {status && <p className="mt-4 text-center">{status}</p>}
     </main>
   );
 }
