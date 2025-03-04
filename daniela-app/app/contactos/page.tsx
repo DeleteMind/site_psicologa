@@ -60,10 +60,10 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="w-full p-4 sm:p-8">
+    <main className="w-full p-4 sm:p-8 flex flex-col lg:flex-row justify-center items-center max-w-lg mx-auto gap-4">
       <form
         onSubmit={handleSubmit}
-        className="space-y-4 max-w-lg mx-auto flex flex-col justify-start md:items-start gap-8 py-8 px-4 sm:px-8 my-8 bg-white rounded-md shadow-md"
+        className="space-y-4  flex flex-col justify-start md:items-start gap-8 p-12 lg:p-24 my-8 bg-white rounded-md shadow-md"
       >
         <h1 className="text-4xl sm:text-6xl text-orange-900">Fala comigo:</h1>
         <div className="flex flex-col w-auto">
@@ -134,6 +134,12 @@ export default function ContactPage() {
         </button>
       </form>
       {status && <p className="mt-4 text-center">{status}</p>}
+
+      <section className="bg-white flex flex-col gap-4  py-8 px-4 sm:px-8">
+        <h2 className="text-2xl text-center">Contactos</h2>
+        <p className="text-center">Email: danielasousa.psicoterapia@gmail.com</p>
+        <p className=""> Telefone: 913444303</p>
+      </section>
     </main>
   );
 }
