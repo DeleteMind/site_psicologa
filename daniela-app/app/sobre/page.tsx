@@ -3,7 +3,6 @@ import Image from 'next/image';
 export default function SobrePage() {
   return (
     <main className="text-black text-lg flex justify-center flex-col lg:flex-row p-4 sm:p-12 lg:mx-4 xl:mx-8">
-      
         {/* Title */}
         <div className="flex flex-col text-right lg:mx-10 pt-6 gap-4 sm:gap-16 lg:w-1/2 mt-20">
           <h1 className=" text-6xl lg:text-8xl ">Daniela Santos Sousa</h1>
@@ -28,7 +27,6 @@ export default function SobrePage() {
             <p className="text-sm sm:text-base">Cédula Profissional nº26868 da Ordem dos Psicólogos Portugueses</p>
           </div>
         </section>
-      
     </main>
   );
 }
