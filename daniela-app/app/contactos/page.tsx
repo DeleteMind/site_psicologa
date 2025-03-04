@@ -60,7 +60,7 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="w-full p-4 sm:p-8 flex flex-col lg:flex-row justify-center items-center max-w-lg mx-auto gap-4">
+    <main className="w-full  sm:p-8 flex flex-col lg:flex-row justify-center items-center max-w-lg mx-auto gap-4">
       <form
         onSubmit={handleSubmit}
         className="space-y-4  flex flex-col justify-start md:items-start gap-8 p-12 lg:p-24 my-8 bg-white rounded-md shadow-md"
