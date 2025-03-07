@@ -49,11 +49,11 @@ export default function ContactPage() {
           message: "",
         });
       } else {
-        setStatus("Error sending message.");
+        setStatus("Erro, falha no envio da mensagem.");
       }
     } catch (error) {
       console.error("Error submitting form:", error);
-      setStatus("Error sending message.");
+      setStatus("Erro, falha no envio da mensagem.");
     } finally {
       setIsSubmitting(false); // Re-enable the button regardless of success or error
     }
