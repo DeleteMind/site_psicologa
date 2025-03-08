@@ -28,7 +28,7 @@ export default function Home() {
           <p>Na sala da terapia, importa-me acolher cada pessoa no seu todo, com aceitação e curiosidade para conhecer as suas vulnerabilidades, defesas e recursos.</p>
           <div className="flex-grow"></div> {/* This div will take up the remaining space */}
           <Link href="/sobre">
-            <button className="lg:self-start text-zinc-500 border-2 border-orange-50 py-2 px-4 rounded-sm hover:bg-orange-50 hover:text-orange-900">Saber mais</button>
+            <button className="w-full lg:w-auto mt-4 lg:self-start text-zinc-500 border-2 border-orange-50 py-2 px-4 rounded-sm hover:bg-orange-50 hover:text-orange-900">Saber mais</button>
           </Link>
         </div>
         <Image
