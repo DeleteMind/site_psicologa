@@ -121,14 +121,14 @@ export default function ContactPage() {
       </form>
      
 
-      <section className="flex flex-col gap-4 py-8 px-4 sm:px-8 items-center">
-        <h2 className="text-2xl text-center sm:text-3xl">Contactos</h2>
+      <section className="flex flex-col gap-4 py-8 px-4 sm:px-8">
+        <h2 className="text-2xl text-center sm:text-3xl mb-2">Contactos</h2>
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          <img src="Icons/email.png" alt="Email Icon" className="w-8 h-8 sm:w-10 sm:h-10" />
+          <img src="Icons/email.png" alt="Email Icon" className="w-6 h-6 sm:w-8 sm:h-8" />
           <p className="text-center sm:text-left">danielasousa.psicoterapia@gmail.com</p>
         </div>
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          <img src="Icons/iphone.png" alt="Phone Icon" className="w-8 h-8 sm:w-10 sm:h-10" />
+          <img src="Icons/iphone.png" alt="Phone Icon" className="w-6 h-6 sm:w-8 sm:h-8" />
           <p className="text-center sm:text-left">Telefone: 913444303</p>
         </div>
       </section>
