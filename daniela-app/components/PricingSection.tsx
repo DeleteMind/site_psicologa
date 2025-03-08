@@ -1,29 +1,38 @@
-import { CheckIcon } from '@heroicons/react/20/solid'
+
 
 const tiers = [
   {
-    name: 'Hobby',
-    id: 'tier-hobby',
+    name: 'Presencial',
+    id: 'choose-one',
     href: '#',
-    priceMonthly: '$29',
-    description: "The perfect plan if you're just getting started with our product.",
-    features: ['25 products', 'Up to 10,000 subscribers', 'Advanced analytics', '24-hour support response time'],
+    local: 'Leiria',
+    description: "Consultório Ser Mais Pessoa - Psicoterapia.",
+    // features: ['25 products', 'Up to 10,000 subscribers', 'Advanced analytics', '24-hour support response time'],
     featured: false,
   },
   {
-    name: 'Enterprise',
-    id: 'tier-enterprise',
+    name: 'Presencial',
+    id: 'choose-two',
     href: '#',
-    priceMonthly: '$99',
-    description: 'Dedicated support and infrastructure for your company.',
-    features: [
-      'Unlimited products',
-      'Unlimited subscribers',
-      'Advanced analytics',
-      'Dedicated support representative',
-      'Marketing automations',
-      'Custom integrations',
-    ],
+    local: 'Lisboa',
+    description: "Psinove - Inovamos a Psicologia.",
+    // features: ['25 products', 'Up to 10,000 subscribers', 'Advanced analytics', '24-hour support response time2'],
+    featured: false,
+  },
+  {
+    name: 'Online',
+    id: 'choose-three',
+    href: '#',
+    local: 'Online',
+    description: 'Consultas de video chamada.',
+    // features: [
+    //   'Unlimited products',
+    //   'Unlimited subscribers',
+    //   'Advanced analytics',
+    //   'Dedicated support representative',
+    //   'Marketing automations',
+    //   'Custom integrations',
+    // ],
     featured: true,
   },
   
@@ -35,18 +44,8 @@ function classNames(...classes: string[]) {
 
 export default function Example() {
   return (
-    <div className="relative isolate  px-6 py-24 sm:py-32 lg:px-8">
-      <div aria-hidden="true" className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl">
-        <div
-          style={{
-            clipPath:
-              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-          }}
-          className="mx-auto aspect-1155/678 w-[72.1875rem] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
-        />
-      </div>
+    <main className="relative isolate  px-6 pt-16 pb-24 lg:px-8">
       <div className="mx-auto max-w-4xl text-center">
-        
         <p className="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">
           Escolhe o melhor caminho para ti
         </p>
@@ -54,7 +53,8 @@ export default function Example() {
       <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
         Escolhe o plano que mais se adequa a ti, para podermos começar a trabalhar juntos.
       </p>
-      <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+      {/* Boxes */}
+      <div className="mx-auto mt-16 sm:mt-20 max-w-lg lg:max-w-4xl grid grid-cols-1 lg:grid-cols-3 items-center gap-8">
         {tiers.map((tier, tierIdx) => (
           <div
             key={tier.id}
@@ -63,9 +63,9 @@ export default function Example() {
               tier.featured
                 ? ''
                 : tierIdx === 0
-                  ? 'rounded-t-3xl sm:rounded-b-none lg:rounded-tr-none lg:rounded-bl-3xl'
-                  : 'sm:rounded-t-none lg:rounded-tr-3xl lg:rounded-bl-none',
-              'rounded-3xl p-8 ring-1 ring-gray-900/10 sm:p-10',
+                  ? 'rounded-3xl'
+                  : 'rounded-3xl',
+                  'rounded-3xl p-8 ring-1 ring-gray-900/10 sm:p-10 grid-flow-row',
             )}
           >
             <h3
@@ -81,14 +81,13 @@ export default function Example() {
                   'text-5xl font-semibold tracking-tight',
                 )}
               >
-                {tier.priceMonthly}
+                {tier.local}
               </span>
-              <span className={classNames(tier.featured ? 'text-gray-400' : 'text-gray-500', 'text-base')}>/month</span>
             </p>
             <p className={classNames(tier.featured ? 'text-gray-300' : 'text-gray-600', 'mt-6 text-base/7')}>
               {tier.description}
             </p>
-            <ul
+            {/* <ul
               role="list"
               className={classNames(
                 tier.featured ? 'text-gray-300' : 'text-gray-600',
@@ -104,7 +103,7 @@ export default function Example() {
                   {feature}
                 </li>
               ))}
-            </ul>
+            </ul> */}
             <a
               href={tier.href}
               aria-describedby={tier.id}
@@ -115,11 +114,11 @@ export default function Example() {
                 'mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10',
               )}
             >
-              Get started today
+              Começa hoje
             </a>
           </div>
         ))}
       </div>
-    </div>
+    </main>
   )
 }
