@@ -117,8 +117,9 @@ export default function ContactPage() {
         >
           {isSubmitting ? "A enviar..." : "Enviar"}
         </button>
+        {status && <p className="mt-4 text-center">{status}</p>}
       </form>
-      {status && <p className="mt-4 text-center">{status}</p>}
+     
 
       <section className="flex flex-col gap-4 py-8 px-4 sm:px-8 items-center">
         <h2 className="text-2xl text-center sm:text-3xl">Contactos</h2>
