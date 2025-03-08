@@ -60,7 +60,7 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="w-full  sm:p-8 flex flex-col lg:flex-row justify-center items-center max-w-lg mx-auto gap-4">
+    <main className="w-full  sm:p-8 flex flex-col justify-center items-center max-w-lg mx-auto gap-4">
       <form
         onSubmit={handleSubmit}
         className="space-y-4  flex flex-col justify-start md:items-start gap-8 p-12 lg:p-24 my-8 bg-white rounded-md shadow-md"
@@ -135,10 +135,16 @@ export default function ContactPage() {
       </form>
       {status && <p className="mt-4 text-center">{status}</p>}
 
-      <section className="bg-white flex flex-col gap-4  py-8 px-4 sm:px-8">
-        <h2 className="text-2xl text-center">Contactos</h2>
-        <p className="text-center">Email: danielasousa.psicoterapia@gmail.com</p>
-        <p className=""> Telefone: 913444303</p>
+      <section className="flex flex-col gap-4 py-8 px-4 sm:px-8 items-center">
+        <h2 className="text-2xl text-center sm:text-3xl">Contactos</h2>
+        <div className="flex flex-col sm:flex-row items-center gap-4">
+          <img src="Icons/email.png" alt="Email Icon" className="w-8 h-8 sm:w-10 sm:h-10" />
+          <p className="text-center sm:text-left">danielasousa.psicoterapia@gmail.com</p>
+        </div>
+        <div className="flex flex-col sm:flex-row items-center gap-4">
+          <img src="Icons/iphone.png" alt="Phone Icon" className="w-8 h-8 sm:w-10 sm:h-10" />
+          <p className="text-center sm:text-left">Telefone: 913444303</p>
+        </div>
       </section>
     </main>
   );
