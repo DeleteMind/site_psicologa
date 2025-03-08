@@ -67,7 +67,7 @@ export default function ContactPage() {
           <label className="text-left">Nome:</label>
           <input
             type="text"
-            name="firstName"
+            name="Name"
             value={formData.Name}
             onChange={handleChange}
             required
