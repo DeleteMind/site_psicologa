@@ -3,8 +3,7 @@
 import { useState, ChangeEvent, FormEvent } from "react";
 
 type FormData = {
-  firstName: string;
-  lastName: string;
+  Name: string;
   email: string;
   phone: string;
   message: string;
@@ -12,8 +11,7 @@ type FormData = {
 
 export default function ContactPage() {
   const [formData, setFormData] = useState<FormData>({
-    firstName: "",
-    lastName: "",
+    Name: "",
     email: "",
     phone: "",
     message: "",
@@ -42,8 +40,7 @@ export default function ContactPage() {
       if (res.ok) {
         setStatus("Messagem enviada com sucesso!");
         setFormData({
-          firstName: "",
-          lastName: "",
+          Name: "",
           email: "",
           phone: "",
           message: "",
@@ -67,23 +64,11 @@ export default function ContactPage() {
       >
         <h1 className="text-4xl sm:text-6xl text-orange-900">Fala comigo:</h1>
         <div className="flex flex-col w-auto">
-          <label className="text-left">Primeiro Nome:</label>
+          <label className="text-left">Nome:</label>
           <input
             type="text"
             name="firstName"
-            value={formData.firstName}
-            onChange={handleChange}
-            required
-            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-          />
-        </div>
-
-        <div className="flex flex-col w-auto">
-          <label className="text-left">Apelido:</label>
-          <input
-            type="text"
-            name="lastName"
-            value={formData.lastName}
+            value={formData.Name}
             onChange={handleChange}
             required
             className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
