@@ -24,7 +24,7 @@ const tiers = [
     id: 'choose-three',
     href: '#',
     local: 'Online',
-    description: 'Consultas de video chamada.',
+    description: 'Consultas por videochamada.',
     // features: [
     //   'Unlimited products',
     //   'Unlimited subscribers',
