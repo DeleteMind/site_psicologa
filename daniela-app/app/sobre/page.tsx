@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function SobrePage() {
   return (
-    <main className="text-black text-lg min-h-screen p-4 sm:p-12 lg:mx-4 xl:mx-8">
+    <main className="text-black text-lg min-h-screen p-4 sm:p-16 lg:mx-4 xl:mx-8">
       {/* Title and Image */}
       <div className="flex flex-col-reverse md:flex-row w-full lg:w-3/4 justify-start items-center lg:items-end mx-auto gap-x-16">
         <div className="flex flex-col items-start">
@@ -28,6 +28,12 @@ export default function SobrePage() {
           <p className="mb-4 lg:mb-0">Sou a Daniela Sousa, Psicóloga Clínica, mestre em Psicoterapia Cognitiva - Comportamental e Integrativa, pela Faculdade de Psicologia da Universidade de Lisboa. Interesso-me especialmente pelas relações humanas e pela forma como o nosso sistema nervoso se modifica à medida que vamos criando novas relações interpessoais.</p>
           <p className="mb-4 lg:mb-0">Na sala da terapia, importa-me acolher cada pessoa no seu todo, com aceitação e curiosidade para conhecer as suas vulnerabilidades, defesas e recursos. Considero importante ajustar as formas de intervenção às individualidades de cada um, por sermos todos únicos e não gostar de catalogar. É na relação terapêutica que se cria espaço para a consciência dos processos internos e, se potencia a mudança.</p>
           <p className="mb-4 lg:mb-0">Frequento a formação avançada em psicoterapia na Associação Portuguesa de Terapias Cognitiva, Comportamental e Integrativa (APTCCI). Paralelamente, tenho vindo a fazer formações que me permitem conhecer melhor a relação entre o corpo e a mente, e entender mais sobre processos interpessoais, tendo especial interesse pela Terapia Focada na Emoções, Terapia Interpessoal Reconstrutiva, e Terapia Somática.</p>
+          <div className='flex flex-row items-center gap-4'>
+            <a href="/Test.pdf" target="_blank" rel="">
+            <img src="/Icons/pdf.png" alt='pdfIcons' className='w-6 h-6 sm:w-8 sm:h-8'></img>
+            </a>
+            <h4>Ficheiro Pdf</h4>
+          </div>
         </div>
       </section>
     </main>
