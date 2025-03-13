@@ -23,7 +23,7 @@ export default function SobrePage() {
 
       {/* Section at the bottom */}
       <section className="mt-10 pt-8 text-justify text-xs sm:text-sm lg:text-base border-t border-gray-300/50 gap-x-8">
-        <h3 className="mb-8 text-xl p-4 font-bold ">SÍNTESE CURRICULAR</h3>
+        <h3 className="mb-2 text-xl p-4 font-bold ">SÍNTESE CURRICULAR</h3>
         <div className="flex flex-col lg:w-1/2 bg-white rounded-2xl shadow-md p-4">
           <p className='mb-4'>Sou a Daniela Sousa, Psicóloga Clínica, mestre em Psicoterapia Cognitiva - Comportamental e Integrativa, pela Faculdade de Psicologia da Universidade de Lisboa. Interesso-me especialmente pelas relações humanas e pela forma como o nosso sistema nervoso se modifica à medida que vamos criando novas relações interpessoais.</p>
           <p className='mb-4'>Na sala da terapia, importa-me acolher cada pessoa no seu todo, com aceitação e curiosidade para conhecer as suas vulnerabilidades, defesas e recursos. Considero importante ajustar as formas de intervenção às individualidades de cada um, por sermos todos únicos e não gostar de catalogar. É na relação terapêutica que se cria espaço para a consciência dos processos internos e, se potencia a mudança.</p>

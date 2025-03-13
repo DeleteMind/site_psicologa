@@ -45,8 +45,7 @@ export default function Home() {
           {[
             { src: "/Icons/mood-swings.png", text: "Perturbações de Humor" },
             { src: "/Icons/mental-disorder.png", text: "Perturbações de Ansiedade" },
-            { src: "/Icons/personality-disorder.png", text: "Perturbação de Personalidade Borderline" },
-            { src: "/Icons/emotional.png", text: "Perturbação Dependente de Personalidade" },
+            { src: "/Icons/personality-disorder.png", text: "Perturbações de Personalidade" },
             { src: "/Icons/stress.png", text: "Problemas interpessoais" },
             { src: "/Icons/self.png", text: "Baixa auto-estima" },
             { src: "/Icons/work.png", text: "Crises de vida" },

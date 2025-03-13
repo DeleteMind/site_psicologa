@@ -51,7 +51,7 @@ export default function Example() {
         </p>
       </div>
       <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
-        Escolhe o plano que mais se adequa a ti, para podermos começar a trabalhar juntos.
+        Escolhe o plano que mais adequado, para podermos começar a trabalhar juntos.
       </p>
       {/* Boxes */}
       <div className="mx-auto mt-16 sm:mt-20 max-w-lg lg:max-w-4xl grid grid-cols-1 lg:grid-cols-3 items-center gap-8">
