@@ -119,7 +119,7 @@ export default function ContactPage() {
         </button>
         {status && <p className="mt-4 text-center">{status}</p>}
       </form>
-     
+
 
       <section className="flex flex-col gap-4 py-8 px-4 sm:px-8 mb-8 sm:mb-0 bg-white rounded-e-full shadow-md">
         <h2 className="text-2xl text-center sm:text-3xl mb-2">Contactos</h2>
@@ -129,7 +129,7 @@ export default function ContactPage() {
         </div>
         <div className="flex flex-col sm:flex-row items-center gap-4">
           <img src="Icons/iphone.png" alt="Phone Icon" className="w-6 h-6 sm:w-8 sm:h-8" />
-          <p className="text-center sm:text-left">Telefone: 913444303</p>
+          <p className="text-center sm:text-left">913 444 303</p>
         </div>
       </section>
     </main>
