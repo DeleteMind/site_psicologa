@@ -57,7 +57,7 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="w-full  sm:p-8 flex flex-col justify-center items-center max-w-lg mx-auto gap-4">
+    <main className="w-full sm:p-8 flex flex-col justify-center items-center max-w-lg mx-auto gap-4">
       <form
         onSubmit={handleSubmit}
         className="space-y-4  flex flex-col justify-start md:items-start p-12 my-8 bg-white rounded-md shadow-md"
@@ -121,7 +121,7 @@ export default function ContactPage() {
       </form>
      
 
-      <section className="flex flex-col gap-4 py-8 px-4 sm:px-8 bg-white rounded-md shadow-md">
+      <section className="flex flex-col gap-4 py-8 px-4 sm:px-8 bg-white rounded-e-full shadow-md">
         <h2 className="text-2xl text-center sm:text-3xl mb-2">Contactos</h2>
         <div className="flex flex-col sm:flex-row items-center gap-4">
           <img src="Icons/email.png" alt="Email Icon" className="w-6 h-6 sm:w-8 sm:h-8" />
