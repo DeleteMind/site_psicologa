@@ -24,7 +24,7 @@ export default function SobrePage() {
       </div>
 
       {/* Section at the bottom */}
-      <section className="mt-10 pt-8 text-justify text-xs sm:text-sm lg:text-base border-t border-gray-300/50 gap-x-8">
+      <section className="mt-10 pt-8 text-justify text-xs sm:text-sm lg:text-base border-t-2 gap-x-8">
         <h3 className="mb-2 text-2xl p-4">SÍNTESE CURRICULAR</h3>
         <div className="flex flex-col lg:w-1/2 bg-white rounded-2xl shadow-md p-4">
           <p className='mb-4'>Sou a Daniela Sousa, Psicóloga Clínica, mestre em Psicoterapia Cognitiva - Comportamental e Integrativa, pela Faculdade de Psicologia da Universidade de Lisboa. Interesso-me especialmente pelas relações humanas e pela forma como o nosso sistema nervoso se modifica à medida que vamos criando novas relações interpessoais.</p>
