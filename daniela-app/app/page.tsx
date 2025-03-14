@@ -25,7 +25,8 @@ export default function Home() {
       {/* Sobre mim and photo */}
       <div className="flex flex-col lg:flex-row items-center justify-center m-8 text-justify">
         <div className="relative bg-white min-h-[450px] lg:min-h-[530px] p-8 flex flex-col gap-4 w-full lg:max-w-lg mt-82">
-          <h1 className="text-4xl border-b-2 w-1/2 pb-4">Sobre mim</h1>
+          <h1 className="text-4xl">Sobre mim</h1>
+          <hr className=" border-b-2 w-1/2" />
           <p>Sou a Daniela Sousa, Psicóloga Clínica, mestre em Psicoterapia Cognitiva - Comportamental e Integrativa, pela Faculdade de Psicologia da Universidade de Lisboa. Interesso-me especialmente pelas relações humanas e pela forma como o nosso sistema nervoso se modifica à medida que vamos criando novas relações interpessoais.</p>
           <p>Na sala da terapia, importa-me acolher cada pessoa no seu todo, com aceitação e curiosidade para conhecer as suas vulnerabilidades, defesas e recursos.</p>
           <div className="flex-grow"></div> {/* This div will take up the remaining space */}
