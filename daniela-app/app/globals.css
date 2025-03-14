@@ -5,4 +5,5 @@
 /* Custom global styles */
 body {
   font-family: var(--font-open-sans), sans-serif;
+  color: #555e5c; /* Change default text color */
 }

@@ -13,17 +13,17 @@ export default function Header() {
   };
 
   return (
-    <header className="z-[10000] sticky top-0 w-full flex justify-between items-center p-6 bg-white">
+    <header className="z-[10000] sticky top-0 w-full flex justify-between items-center px-6 pt-2 bg-white">
       {/* Logo */}
       <Link
         className="shrink-0"
         href="/"
       >
         <Image
-          className="bg-zinc-100"
-          src="/Screenshot 2025-02-11 135124.jpg"
+          className="object-contain"
+          src="/24.jpeg"
           alt="Logo"
-          width={200}
+          width={220}
           height={100}
         />
       </Link>

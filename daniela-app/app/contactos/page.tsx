@@ -62,8 +62,8 @@ export default function ContactPage() {
         onSubmit={handleSubmit}
         className="space-y-4  flex flex-col justify-start md:items-start p-12 my-8 bg-white rounded-md shadow-md"
       >
-        <h1 className="text-4xl sm:text-6xl text-orange-900 mb-8">Fala comigo:</h1>
-        <div className="flex flex-col w-auto">
+        <h1 className="text-4xl sm:text-6xl mb-8">Fala comigo:</h1>
+        <div className="flex flex-col w-full">
           <label className="text-left">Nome:</label>
           <input
             type="text"
@@ -75,7 +75,7 @@ export default function ContactPage() {
           />
         </div>
 
-        <div className="flex flex-col w-auto">
+        <div className="flex flex-col w-full">
           <label className="text-left">Email:</label>
           <input
             type="email"
@@ -111,7 +111,7 @@ export default function ContactPage() {
         </div>
 
         <button
-          className="w-full border-2 border-gray-950 px-4 py-2 rounded-md hover:bg-gray-200"
+          className="w-full border-2  px-4 py-2 rounded-md hover:bg-orange-50 hover:text-orange-900"
           type="submit"
           disabled={isSubmitting}
         >

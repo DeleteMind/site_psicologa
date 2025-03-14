@@ -46,11 +46,11 @@ export default function Example() {
   return (
     <main className="relative isolate  px-6 pt-16 pb-24 lg:px-8">
       <div className="mx-auto max-w-4xl text-center">
-        <p className="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">
+        <p className="mt-2 text-5xl font-semibold tracking-tight text-balance  sm:text-6xl">
           Escolhe o melhor caminho para ti
         </p>
       </div>
-      <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
+      <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty sm:text-xl/8">
         Escolhe o plano que mais adequado, para podermos começar a trabalhar juntos.
       </p>
       {/* Boxes */}
