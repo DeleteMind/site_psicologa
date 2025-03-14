@@ -13,7 +13,7 @@ const tiers = [
   {
     name: 'Presencial',
     id: 'choose-two',
-    href: '#',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSeM44IA0jHcO8tckw_yct4gnVM5W85farYUPAp-K0yuqDAhRQ/viewform?usp=header',
     local: 'Lisboa',
     description: "Psinove - Inovamos a Psicologia.",
     // features: ['25 products', 'Up to 10,000 subscribers', 'Advanced analytics', '24-hour support response time2'],
