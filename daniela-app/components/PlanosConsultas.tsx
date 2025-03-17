@@ -1,5 +1,3 @@
-
-
 const tiers = [
   {
     name: 'Presencial',
@@ -35,14 +33,14 @@ const tiers = [
     // ],
     featured: true,
   },
-  
+
 ]
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function TiposConsultas() {
   return (
     <main className="relative isolate  px-6 pt-16 pb-24 lg:px-8">
       <div className="mx-auto max-w-4xl text-center">
@@ -59,25 +57,25 @@ export default function Example() {
           <div
             key={tier.id}
             className={classNames(
-              tier.featured ? 'relative bg-gray-900 shadow-2xl' : 'bg-white/60 sm:mx-8 lg:mx-0',
+              tier.featured ? 'relative bg-orange-900 shadow-2xl' : 'bg-white/60 sm:mx-8 lg:mx-0',
               tier.featured
                 ? ''
                 : tierIdx === 0
                   ? 'rounded-3xl'
                   : 'rounded-3xl',
-                  'rounded-3xl p-8 ring-1 ring-gray-900/10 sm:p-10 grid-flow-row',
+              'rounded-3xl p-8 ring-1 ring-gray-900/10 sm:p-10 grid-flow-row',
             )}
           >
             <h3
               id={tier.id}
-              className={classNames(tier.featured ? 'text-indigo-400' : 'text-indigo-600', 'text-base/7 font-semibold')}
+              className={classNames(tier.featured ? 'text-orange-200' : 'text-orange-400', 'text-base/7 font-semibold')}
             >
               {tier.name}
             </h3>
             <p className="mt-4 flex items-baseline gap-x-2">
               <span
                 className={classNames(
-                  tier.featured ? 'text-white' : 'text-gray-900',
+                  tier.featured ? 'text-white' : '',
                   'text-5xl font-semibold tracking-tight',
                 )}
               >
@@ -106,11 +104,13 @@ export default function Example() {
             </ul> */}
             <a
               href={tier.href}
+              target="_blank" // Opens the link in a new window
+              rel="noopener noreferrer" // Security best practice
               aria-describedby={tier.id}
               className={classNames(
                 tier.featured
-                  ? 'bg-indigo-500 text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-indigo-500'
-                  : 'text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-indigo-600',
+                  ? 'bg-orange-200 text-white shadow-xs hover:bg-orange-500 focus-visible:outline-indigo-600'
+                  : 'ring-1 ring-orange-200 ring-inset hover:ring-orange-300 focus-visible:outline-orange-600',
                 'mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10',
               )}
             >

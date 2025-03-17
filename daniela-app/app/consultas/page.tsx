@@ -1,9 +1,9 @@
-import Example from '../../components/PricingSection';
+import TiposConsultas from '../../components/PlanosConsultas';
 
 export default function ConsultasPage() {
     return (
     <main>
-      <Example />
+      <TiposConsultas />
     </main>
   );
   }
