@@ -1,15 +1,14 @@
 "use client";
 
-
 import Link from "next/link";
 
 export default function Recursos() {
   return (
-    <main className="container mx-auto px-20 py-16">
+    <main className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-20 py-8 sm:py-12 md:py-16">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Blogs Section */}
         <section className="md:col-span-2 flex flex-col gap-6">
-          <h2 className="text-2xl font-bold">Blog</h2>
+          <h2 className="text-2xl">BLOG</h2>
           <Link href="https://24.sapo.pt/opiniao/artigos/seremos-realmente-todos-um-bocadinho-psicologos-os-psis-e-os-pseudopsis" target="_blank" rel="noopener noreferrer">
             <div className="flex items-center gap-4 p-4 bg-white rounded-lg shadow">
               <img src="https://thumbs.web.sapo.io/?W=775&H=0&png=1&delay_optim=1&webp=1&epic=NzM2QhNt4au+L2O5NSIRhhlx+5IRiCS9ZIRtQYFQzgHqYpR7QyqU/v7puvJbDfiXpw4pNyG7MjEKCR9ZP9K0azEGX9ntuvE+Hp/OFsyOTONt+DI=" alt="Blog 1" className="w-24 h-24 object-cover rounded-md" />
