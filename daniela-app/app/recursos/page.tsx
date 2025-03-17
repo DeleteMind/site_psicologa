@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function BlogAndArticles() {
+export default function Recursos() {
   return (
     <main className="container mx-auto px-12 py-8">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -29,7 +29,7 @@ export default function BlogAndArticles() {
           <Link href="https://lifestyle.sapo.pt/vida-e-carreira/comportamento/artigos/estar-no-aqui-e-no-agora-como-passar-da-critica-a-aceitacao-de-nos-proprios" target="_blank">
             <div className="flex items-center gap-4 p-4 bg-gray-100 rounded-lg shadow">
               <img src="https://thumbs.web.sapo.io/?W=775&H=0&delay_optim=1&webp=1&epic=ZTFjv5K7FXHXpClOfg54xGuunwcUUg3pMgsV2Z/HxTRblXK0yitw4zb0Uy5gHmeGiJ5G8jJpZ+bPB6T8qcns1SxevIKWLcNW7kanoID4u5MUawY=" alt="Blog 4" className="w-24 h-24 object-cover rounded-md" />
-              <p className="text-lg font-medium">(Psinove) Sapo Lifestyle: Estar no aqui e no agora: como passar da "crítica" à "aceitação" de nós próprios?</p>
+              <p className="text-lg font-medium">(Psinove) Sapo Lifestyle: Estar no aqui e no agora: como passar da &quot;crítica&quot; à &quot;aceitação&quot; de nós próprios?</p>
             </div>
           </Link>
         </section>
