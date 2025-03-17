@@ -4,7 +4,7 @@ const tiers = [
   {
     name: 'Presencial',
     id: 'choose-one',
-    href: '#',
+    href: '/contactos',
     local: 'Leiria',
     description: "Consultório Ser Mais Pessoa - Psicoterapia.",
     // features: ['25 products', 'Up to 10,000 subscribers', 'Advanced analytics', '24-hour support response time'],
