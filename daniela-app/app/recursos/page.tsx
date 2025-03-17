@@ -1,3 +1,6 @@
+"use client";
+
+
 import Link from "next/link";
 
 export default function Recursos() {
@@ -15,7 +18,7 @@ export default function Recursos() {
           </Link>
           <Link href="https://24.sapo.pt/opiniao/artigos/bem-te-quero-mal-me-quero-quando-o-nosso-bem-estar-parece-depender-dos-outros" target="_blank" rel="noopener noreferrer">
             <div className="flex items-center gap-4 p-4 bg-white rounded-lg shadow">
-              <img src="/blog2.jpg" alt="Blog 2" className="w-24 h-24 object-cover rounded-md" />
+              <img src="https://thumbs.web.sapo.io/?W=640&H=320&delay_optim=1&tv=1&crop=center&webp=1&epic=NTQ5ze7vM94yw9Sfr3sb8koknThthSJzwhEZ6SxNB2ARAJaMk7wVKgbT8gOsmJDP364atNj1ypmbna26mJctzh0IDicLE4rkc/AvL/s45hke5FU=" alt="Blog 2" className="w-24 h-24 object-cover rounded-md" />
               <p className="text-lg font-medium">(Psinove) Sapo24: Bem te quero, mal te quero? Quando o nosso bem estar parece depender dos outros</p>
             </div>
           </Link>
