@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Recursos() {
   return (
-    <main className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-20 py-8 sm:py-12 md:py-16">
+    <main className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-20 py-10 sm:py-12 md:py-16">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Blogs Section */}
         <section className="md:col-span-2 flex flex-col gap-6 ">
