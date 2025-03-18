@@ -57,12 +57,12 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="w-full sm:p-8 flex flex-col justify-center items-center max-w-lg mx-auto gap-4">
+    <main className="w-full p-8 flex flex-col justify-center items-center max-w-lg mx-auto gap-4">
       <form
         onSubmit={handleSubmit}
-        className="space-y-4  flex flex-col justify-start md:items-start p-12 my-8 bg-white rounded-md shadow-md"
+        className="space-y-4  flex flex-col justify-start md:items-start p-7 sm:p-12 my-8 bg-white rounded-md shadow-md"
       >
-        <h1 className="text-4xl sm:text-6xl mb-8">Fala comigo:</h1>
+        <h1 className="text-3xl sm:text-6xl mb-8">Fala comigo:</h1>
         <div className="flex flex-col w-full">
           <label className="text-left">Nome:</label>
           <input
@@ -121,15 +121,15 @@ export default function ContactPage() {
       </form>
 
 
-      <section className="flex flex-col gap-4 py-8 px-4 sm:px-8 mb-8 sm:mb-0 bg-white rounded-e-full shadow-md">
-        <h2 className="text-2xl text-center sm:text-3xl mb-2">Contactos</h2>
+      <section className="flex flex-col gap-4 py-8 px-2 sm:px-8 mb-8 sm:mb-0 bg-white rounded-e-full shadow-md">
+        <h2 className="text-2xl sm:text-3xl text-center mb-2">Contactos</h2>
         <div className="flex flex-col sm:flex-row items-center gap-4">
           <img src="Icons/email.png" alt="Email Icon" className="w-6 h-6 sm:w-8 sm:h-8" />
-          <p className="text-center sm:text-left">danielasousa.psicoterapia@gmail.com</p>
+          <p className="text-center sm:text-left text-xs sm:text-base">danielasousa.psicoterapia@gmail.com</p>
         </div>
         <div className="flex flex-col sm:flex-row items-center gap-4">
           <img src="Icons/iphone.png" alt="Phone Icon" className="w-6 h-6 sm:w-8 sm:h-8" />
-          <p className="text-center sm:text-left">913 444 303</p>
+          <p className="text-center sm:text-left text-xs sm:text-base">913 444 303</p>
         </div>
       </section>
     </main>
