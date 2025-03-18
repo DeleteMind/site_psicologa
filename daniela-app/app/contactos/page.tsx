@@ -57,10 +57,10 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="w-full p-8 flex flex-col justify-center items-center max-w-lg mx-auto gap-4">
+    <main className="w-full p-6 sm:p-8 flex flex-col justify-center items-center max-w-lg mx-auto gap-4">
       <form
         onSubmit={handleSubmit}
-        className="space-y-4  flex flex-col justify-start md:items-start p-7 sm:p-12 my-8 bg-white rounded-md shadow-md"
+        className="space-y-4 flex flex-col justify-start md:items-start p-10 sm:p-12 my-8 bg-white rounded-md shadow-md"
       >
         <h1 className="text-3xl sm:text-6xl mb-8">Fala comigo:</h1>
         <div className="flex flex-col w-full">
