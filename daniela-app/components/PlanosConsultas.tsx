@@ -57,7 +57,7 @@ export default function TiposConsultas() {
           <div
             key={tier.id}
             className={classNames(
-              tier.featured ? 'relative bg-orange-100 shadow-2xl' : 'bg-white/90 sm:mx-8 lg:mx-0',
+              tier.featured ? 'relative bg-orange-100 shadow-2xl' : 'bg-white/90 shadow-sm sm:mx-8 lg:mx-0',
               tier.featured
                 ? ''
                 : tierIdx === 0
@@ -109,8 +109,8 @@ export default function TiposConsultas() {
               aria-describedby={tier.id}
               className={classNames(
                 tier.featured
-                  ? 'bg-orange-200 text-white text-shadow shadow-xs hover:bg-orange-300 focus-visible:outline-orange-600'
-                  : 'ring-1 ring-orange-200 ring-inset hover:ring-orange-300 focus-visible:outline-orange-600',
+                  ? 'bg-orange-200 ring-1 ring-orange-300 text-[#555e5c]/80 text-shadow shadow-xs hover:bg-orange-300  focus-visible:outline-orange-600'
+                  : 'ring-1 ring-orange-200 ring-inset text-[#555e5c]/80 hover:ring-orange-300 focus-visible:outline-orange-600',
                 'mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10',
               )}
             >
