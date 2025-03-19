@@ -57,7 +57,7 @@ export default function TiposConsultas() {
           <div
             key={tier.id}
             className={classNames(
-              tier.featured ? 'relative bg-orange-900 shadow-2xl' : 'bg-white/60 sm:mx-8 lg:mx-0',
+              tier.featured ? 'relative bg-orange-100 shadow-2xl' : 'bg-white/90 sm:mx-8 lg:mx-0',
               tier.featured
                 ? ''
                 : tierIdx === 0
@@ -68,21 +68,21 @@ export default function TiposConsultas() {
           >
             <h3
               id={tier.id}
-              className={classNames(tier.featured ? 'text-orange-200' : 'text-orange-400', 'text-base/7 font-semibold')}
+              className={classNames(tier.featured ? 'text-orange-900/90' : 'text-orange-400', 'text-base/7 font-semibold')}
             >
               {tier.name}
             </h3>
             <p className="mt-4 flex items-baseline gap-x-2">
               <span
                 className={classNames(
-                  tier.featured ? 'text-white' : '',
+                  tier.featured ? '' : '', // Color of the name 
                   'text-5xl font-semibold tracking-tight',
                 )}
               >
                 {tier.local}
               </span>
             </p>
-            <p className={classNames(tier.featured ? 'text-gray-300' : 'text-gray-600', 'mt-6 text-base/7')}>
+            <p className={classNames(tier.featured ? '' : '', 'mt-6 text-base/7')}> {/* color of the description*/}
               {tier.description}
             </p>
             {/* <ul
@@ -109,7 +109,7 @@ export default function TiposConsultas() {
               aria-describedby={tier.id}
               className={classNames(
                 tier.featured
-                  ? 'bg-orange-200 text-white shadow-xs hover:bg-orange-500 focus-visible:outline-indigo-600'
+                  ? 'bg-orange-200 text-white text-shadow shadow-xs hover:bg-orange-300 focus-visible:outline-orange-600'
                   : 'ring-1 ring-orange-200 ring-inset hover:ring-orange-300 focus-visible:outline-orange-600',
                 'mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10',
               )}
