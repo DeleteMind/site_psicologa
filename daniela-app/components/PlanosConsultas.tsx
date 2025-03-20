@@ -121,12 +121,6 @@ export default function TiposConsultas() {
           </div>
         ))}
       </div>
-      <div className="border mx-32 my-16"></div> {/* Line */}
-      <section className="max-w-4xl mx-auto flex  items-center justify-center gap-12">
-
-        <p className="text-center sm:text-lg font-bold bg-white/90 rounded-b-[100px] p-6">Faço acompanhamento psicológico sustentado numa relação terapêutica de empatia, aceitação e genuinidade.  As consultas online ou presenciais têm uma duração de 50 minutos, numa periodicidade regular acordada com o cliente. O modelo de intervenção em que a minha prática se sustenta é o Cognitivo-Comportamental e Integrativo.</p>
-      </section>
-
     </main>
   )
 }
