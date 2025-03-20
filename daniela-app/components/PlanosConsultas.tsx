@@ -43,8 +43,10 @@ function classNames(...classes: string[]) {
 export default function TiposConsultas() {
   return (
     <main className="relative isolate  px-6 pt-16 pb-24 lg:px-8">
+
+
       <div className="mx-auto max-w-4xl text-center">
-        <p className="mt-2 text-5xl font-semibold tracking-tight text-balance  sm:text-6xl">
+        <p className="mt-2 text-5xl font-semibold tracking-tight text-balance sm:text-6xl">
           Escolhe o melhor caminho para ti
         </p>
       </div>
@@ -119,6 +121,12 @@ export default function TiposConsultas() {
           </div>
         ))}
       </div>
+      <div className="border mx-32 my-16"></div> {/* Line */}
+      <section className="max-w-4xl mx-auto flex  items-center justify-center gap-12">
+
+        <p className="text-center sm:text-lg font-bold bg-white/90 rounded-b-[100px] p-6">Faço acompanhamento psicológico sustentado numa relação terapêutica de empatia, aceitação e genuinidade.  As consultas online ou presenciais têm uma duração de 50 minutos, numa periodicidade regular acordada com o cliente. O modelo de intervenção em que a minha prática se sustenta é o Cognitivo-Comportamental e Integrativo.</p>
+      </section>
+
     </main>
   )
 }
