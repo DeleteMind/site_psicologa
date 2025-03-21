@@ -37,8 +37,8 @@ export default function Home() {
           </Link>
         </div>
         <Image
-          className="w-full max-w-[500px] h-auto object-cover"
-          src="/Snapinst.app_368680928_270420565750050_196321165440213060_n_1080.jpg"
+          className="w-full max-w-[400px] h-auto object-cover"
+          src="/FotoCores.jpg"
           alt="Description of the image"
           width={500}
           height={500}
