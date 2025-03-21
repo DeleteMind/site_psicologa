@@ -14,7 +14,7 @@ export default function Home() {
           style={{ height: "355px", width: "1743px" }}
         />
         <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-orange-50 text-4xl lg:text-6xl 2xl:mt-4 text-center">
-          <h1>Consultas de psicologia</h1>
+          <h1>Sessões de psicologia</h1>
         </div>
         <Link href="/consultas">
           <button className="absolute bottom-20 left-1/2 transform -translate-x-1/2 text-orange-50 border-2 border-orange-50 px-4 py-2 rounded-sm hover:bg-orange-50 hover:text-orange-900">
