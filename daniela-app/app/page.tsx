@@ -41,7 +41,7 @@ export default function Home() {
           src="/Snapinst.app_368680928_270420565750050_196321165440213060_n_1080.jpg"
           alt="Description of the image"
           width={500}
-          height={512}
+          height={500}
         />
       </div>
       <section className="border-t-2 w-3/4 flex flex-col items-center gap-8 text-center my-12">
