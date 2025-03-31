@@ -15,7 +15,7 @@ export default function SobrePage() {
           </div>
         </div>
         <Image
-          src="/FotoPreto.jpg"
+          src="/Snapinst.app_368680928_270420565750050_196321165440213060_n_1080.jpg"
           alt="Sobre"
           width={500}
           height={500} // Ensure the height matches the width

@@ -38,7 +38,7 @@ export default function Home() {
         </div>
         <Image
           className="w-full max-w-[400px] h-auto object-cover"
-          src="/FotoCores.jpg"
+          src="/1000055737.jpg"
           alt="Description of the image"
           width={500}
           height={500}
