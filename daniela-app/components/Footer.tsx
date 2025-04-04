@@ -24,7 +24,7 @@ export default function Footer() {
               
 
             </div>
-            <p className="text-xs flex justify-center w-full bg-white p-2">©{year} by Filipe Cordeiro.</p>
+            <p className="text-xs flex justify-center w-full bg-white p-2 italic">&copy;{year} by Filipe Cordeiro.</p>
         </footer>
     );
 }
