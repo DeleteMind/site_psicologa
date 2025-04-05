@@ -13,15 +13,12 @@ export default function Header() {
   };
 
   return (
-    <header className="z-[10000] sticky top-0 w-full flex justify-between items-center px-4 pt-2 bg-white">
+    <header className="z-[10000] sticky top-0 w-full flex justify-between items-center px-4 pt-2 bg-white ">
       {/* Logo */}
-      <Link
-        className="shrink-0"
-        href="/"
-      >
+      <Link className="shrink-0" href="/">
         <Image
           className="object-contain"
-          src="/24.jpeg"
+          src="/logo-daniela.png"
           alt="Logo"
           width={220}
           height={100}
@@ -46,11 +43,19 @@ export default function Header() {
 
       {/* Nav Links - Mobile */}
       {isMenuOpen && (
-        <nav className="md:hidden absolute top-full left-0 right-0 flex flex-col items-center gap-2 py-4 bg-white text-lg">
-          <NavLink href="/sobre" onClick={handleLinkClick}>SOBRE</NavLink>
-          <NavLink href="/consultas" onClick={handleLinkClick}>CONSULTAS</NavLink>
-          <NavLink href="/recursos" onClick={handleLinkClick}>RECURSOS</NavLink>
-          <NavLink href="/contactos" onClick={handleLinkClick}>CONTACTOS</NavLink>
+        <nav className="md:hidden absolute top-full left-0 right-0 flex flex-col items-center gap-2 py-4 bg-white text-lg border-b border-orange-200">
+          <NavLink href="/sobre" onClick={handleLinkClick}>
+            SOBRE
+          </NavLink>
+          <NavLink href="/consultas" onClick={handleLinkClick}>
+            CONSULTAS
+          </NavLink>
+          <NavLink href="/recursos" onClick={handleLinkClick}>
+            RECURSOS
+          </NavLink>
+          <NavLink href="/contactos" onClick={handleLinkClick}>
+            CONTACTOS
+          </NavLink>
         </nav>
       )}
     </header>
