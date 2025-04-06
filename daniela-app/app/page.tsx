@@ -22,7 +22,7 @@ export default function Home() {
            text-orange-900  hover:text-orange-800 border-2 border-orange-100  px-4 py-2 rounded-md text-center"
             href="/consultas"
           >
-            Marca já
+            Marca aqui
           </Link>
         </div>
       </div>

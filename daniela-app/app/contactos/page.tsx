@@ -62,7 +62,7 @@ export default function ContactPage() {
         onSubmit={handleSubmit}
         className="space-y-4 flex flex-col justify-start md:items-start p-12 my-10 bg-white rounded-md shadow-md"
       >
-        <h1 className="text-4xl sm:text-[60px] mb-6 px-2">Fala comigo</h1>
+        <h1 className="text-[30px] sm:text-[60px] mb-6 px-2">Fala comigo</h1>
         {/* <p className="text-justify text-sm pb-4">
           Ficou alguma dúvida ou questão por responder? Utiliza este formulário
           e eu entrarei em contacto o mais brevemente possível.
