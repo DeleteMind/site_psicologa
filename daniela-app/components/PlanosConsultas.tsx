@@ -42,7 +42,7 @@ function classNames(...classes: string[]) {
 
 export default function TiposConsultas() {
   return (
-    <main className="relative isolate  px-6 pt-16 pb-24 lg:px-8">
+    <main className="relative isolate  px-6 pt-16 pb-16 lg:px-8">
 
 
       <div className="mx-auto max-w-4xl text-center">
