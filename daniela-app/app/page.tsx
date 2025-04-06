@@ -4,7 +4,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center w-full">
-      <div className="w-full relative bg-white pb-16 overflow-hidden">
+      
+      <div className="w-full relative pb-16 overflow-hidden">
         <Image
           className="ml-[11px] shrink-0 min-w-fit"
           src="/header-daniela-big2.png"
@@ -12,8 +13,8 @@ export default function Home() {
           width={949}
           height={86}
         />
-        <div className="flex flex-col items-center gap-12 lg:gap-6 absolute inset-x-0 top-0 pt-4">
-          <h1 className="text-xl md:text-4xl tracking-wider text-center">
+        <div className="flex flex-col items-center gap-12 lg:gap-2 absolute inset-x-0 top-0 mt-8">
+          <h1 className="text-xl md:text-2xl tracking-wider text-center">
             SESSÕES DE PSICOLOGIA
           </h1>
           <Link

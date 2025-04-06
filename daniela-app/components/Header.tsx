@@ -13,7 +13,7 @@ export default function Header() {
   };
 
   return (
-    <header className="z-[10000] sticky top-0 w-full flex justify-between items-center px-4 pt-2 bg-white border-b-[1px] border-orange-50">
+    <header className="z-[10000] sticky top-0 w-full flex justify-between items-center px-4 pt-2 bg-orange-50 ">
       {/* Logo */}
       <Link className="shrink-0" href="/">
         <Image
