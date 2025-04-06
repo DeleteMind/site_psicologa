@@ -12,9 +12,9 @@ export default function Home() {
           width={949}
           height={86}
         />
-        <div className="flex flex-col items-center gap-6 absolute inset-x-0 top-0 pt-4">
-          <h1 className="text-5xl tracking-wider text-center">
-            Sessões de psicologia
+        <div className="flex flex-col items-center gap-12 lg:gap-6 absolute inset-x-0 top-0 pt-4">
+          <h1 className="text-xl md:text-4xl tracking-wider text-center">
+            SESSÕES DE PSICOLOGIA
           </h1>
           <Link
             className=" bg-white hover:bg-orange-50 font-semibold
