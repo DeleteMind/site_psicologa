@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center w-full">
       
-      <div className="w-full relative pb-16 overflow-hidden">
+      {/* <div className="w-full relative pb-16 overflow-hidden">
         <Image
           className="ml-[11px] shrink-0 min-w-fit"
           src="/header-daniela-big2.png"
@@ -25,7 +25,7 @@ export default function Home() {
             Marca aqui
           </Link>
         </div>
-      </div>
+      </div> */}
       {/* Sobre mim and photo */}
       <div className="flex flex-col lg:flex-row items-center justify-center m-8 text-justify">
         <div className="relative bg-white min-h-[450px] lg:min-h-[530px] p-8 flex flex-col gap-4 w-full lg:max-w-lg mt-82">
