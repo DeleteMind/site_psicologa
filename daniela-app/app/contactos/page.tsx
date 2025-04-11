@@ -104,7 +104,7 @@ export default function ContactPage() {
         </div>
 
         <div className="flex flex-col w-full">
-          <label className="text-left">Messagem:</label>
+          <label className="text-left">Mensagem:</label>
           <textarea
             name="message"
             value={formData.message}
