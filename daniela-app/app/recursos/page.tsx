@@ -12,7 +12,7 @@ export default function Recursos() {
           <Link href="https://24.sapo.pt/opiniao/artigos/seremos-realmente-todos-um-bocadinho-psicologos-os-psis-e-os-pseudopsis" target="_blank" rel="noopener noreferrer">
             <div className="flex items-center gap-4 p-4 bg-white rounded-lg shadow hover:shadow-lg transition duration-300">
               <img src="https://thumbs.web.sapo.io/?W=775&H=0&png=1&delay_optim=1&webp=1&epic=NzM2QhNt4au+L2O5NSIRhhlx+5IRiCS9ZIRtQYFQzgHqYpR7QyqU/v7puvJbDfiXpw4pNyG7MjEKCR9ZP9K0azEGX9ntuvE+Hp/OFsyOTONt+DI=" alt="Blog 1" className="w-24 h-24 object-cover rounded-md" />
-              <p className="text-xs sm:text-lg font-medium">(Psinove) Sapo24: Seremos tos realmente um bocadinho psicólogos? Os psis e os pseudopsis</p>
+              <p className="text-xs sm:text-lg font-medium">(Psinove) Sapo24: Seremos todos realmente um bocadinho psicólogos? Os psis e os pseudopsis</p>
             </div>
           </Link>
           <Link href="https://24.sapo.pt/opiniao/artigos/bem-te-quero-mal-me-quero-quando-o-nosso-bem-estar-parece-depender-dos-outros" target="_blank" rel="noopener noreferrer">

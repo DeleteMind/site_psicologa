@@ -31,7 +31,7 @@ export default function SobrePage() {
           <p className='mb-4'>Na sala da terapia, importa-me acolher cada pessoa no seu todo, com aceitação e curiosidade para conhecer as suas vulnerabilidades, defesas e recursos. Considero importante ajustar as formas de intervenção às individualidades de cada um, por sermos todos únicos e não gostar de catalogar. É na relação terapêutica que se cria espaço para a consciência dos processos internos e, se potencia a mudança.</p>
           <p className='mb-4'>Frequento a formação avançada em psicoterapia na Associação Portuguesa de Terapias Cognitiva, Comportamental e Integrativa (APTCCI). Paralelamente, tenho vindo a fazer formações que me permitem conhecer melhor a relação entre o corpo e a mente, e entender mais sobre processos interpessoais, tendo especial interesse pela Terapia Focada na Emoções, Terapia Interpessoal Reconstrutiva, e Terapia Somática.</p>
           <a href="/Curriculum_DanielaSousa_PsicólogaClinica.pdf" target="_blank" rel="pdf_File" className='flex flex-row items-center justify-end gap-4 mt-4'>
-            <img src="/Icons/pdf.png" alt='pdfIcons' className='w-6 h-6 sm:w-8 sm:h-8'></img>Curriculum
+            <img src="/Icons/pdf.png" alt='pdfIcons' className='w-6 h-6 sm:w-8 sm:h-8'></img>Currículo
           </a>
         </div>
       </section>
