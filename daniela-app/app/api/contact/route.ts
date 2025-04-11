@@ -37,7 +37,7 @@ console.log('SMTP_HOST:', smtpHost);
 
         // Prepare the email message
         const mailOptions = {
-            from: Name,
+            from: `${name}`,
             to: contactEmail,
             subject: `Contacto do site ${name}`,
             text: `Nome: ${name}\nTelefone: ${phone}\nEmail: ${email}\nMessagem: ${message}`,
