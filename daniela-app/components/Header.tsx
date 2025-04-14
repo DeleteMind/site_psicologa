@@ -43,7 +43,7 @@ export default function Header() {
 
       {/* Nav Links - Mobile */}
       {isMenuOpen && (
-        <nav className="md:hidden absolute top-full left-0 right-0 flex flex-col items-center gap-2 py-4 bg-white text-lg border-b border-orange-200">
+        <nav className="md:hidden absolute top-full left-0 right-0 flex flex-col items-center gap-2 py-4 bg-orange-50 text-lg border-b border-orange-200">
           <NavLink href="/sobre" onClick={handleLinkClick}>
             SOBRE
           </NavLink>
