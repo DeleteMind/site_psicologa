@@ -2,7 +2,7 @@ const tiers = [
   {
     name: "Presencial",
     id: "choose-one",
-    href: "/contactos",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSfFoY2avmFLG7lz03fZP-Uq_83u6r4cGEg4tmW_1iz24FvdZA/viewform?usp=sharing",
     local: "Leiria",
     description: "Consultório Ser Mais Pessoa - Psicoterapia.",
     // features: ['25 products', 'Up to 10,000 subscribers', 'Advanced analytics', '24-hour support response time'],
@@ -11,7 +11,7 @@ const tiers = [
   {
     name: "Presencial",
     id: "choose-two",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSeM44IA0jHcO8tckw_yct4gnVM5W85farYUPAp-K0yuqDAhRQ/viewform?usp=header",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSfKS_14EZfOXmWIn_xdAaVcNZCQfY2yaAepBAYAk5UKkfyAsg/viewform?usp=sharing",
     local: "Lisboa",
     description: "Psinove - Inovamos a Psicologia.",
     // features: ['25 products', 'Up to 10,000 subscribers', 'Advanced analytics', '24-hour support response time2'],
@@ -20,7 +20,7 @@ const tiers = [
   {
     name: "Online",
     id: "choose-three",
-    href: "#",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSd4QcWxyEfRggXDCGMR9faItwLARddK4gyb3f-KnDDnPvK7gw/viewform?usp=sharing",
     local: "Online",
     description: "Consultas por videochamada.",
     // features: [
