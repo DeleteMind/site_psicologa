@@ -43,6 +43,9 @@ export default function Recursos() {
             <p className="text-gray-700">
               Sousa, D. S., Silva, A. N. D., & Neto, D. D. (2024). Looking after myself while caring for others: A pilot study on self-care in psychologists working in palliative care.
             </p>
+            <a href="https://www.redalyc.org/journal/180/18076225020/" target="_blank" rel="artigo">
+            <button className="text-sm border-1 flex mt-4 p-1 ring-1 ring-orange-200 ring-inset text-[#555e5c]/80 hover:ring-orange-300 focus-visible:outline-orange-600 ">Ver mais</button>
+            </a>
           </div>
         </section>
       </div>
