@@ -13,7 +13,7 @@ const saira = Saira({
 
 export const metadata: Metadata = {
   title: "Daniela Sousa - Psicológa Clínica",
-  description: "Site de psicóloga clínica da Daniela Sousa",
+  description: "Consultas de Psicologia em Leiria, Lisboa e online.",
 };
 
 export default function RootLayout({
