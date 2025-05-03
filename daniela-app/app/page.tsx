@@ -27,7 +27,7 @@ export default function Home() {
       </div> */}
       {/* Sobre mim and photo */}
       <div className="flex flex-col lg:flex-row items-center justify-center m-8 text-justify">
-        <div className="relative bg-white min-h-[450px] lg:min-h-[530px] p-8 flex flex-col gap-4 w-full lg:max-w-lg mt-82">
+        <div className="relative rounded-md bg-white min-h-[450px] lg:min-h-[530px] p-8 flex flex-col gap-4 w-full lg:max-w-lg mt-82">
           <h1 className="text-4xl">Sobre mim</h1>
           <hr className=" border-b-2 w-1/2" />
           <p>
@@ -51,7 +51,7 @@ export default function Home() {
           </Link>
         </div>
         <Image
-          className="w-full max-w-[400px] h-auto object-cover"
+          className="w-full max-w-[400px] h-auto object-cover rounded-r-md"
           src="/1000055737.jpg"
           alt="Description of the image"
           width={500}
