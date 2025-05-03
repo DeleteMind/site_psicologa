@@ -4,7 +4,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center w-full">
-      
       {/* <div className="w-full relative pb-16 overflow-hidden">
         <Image
           className="ml-[11px] shrink-0 min-w-fit"

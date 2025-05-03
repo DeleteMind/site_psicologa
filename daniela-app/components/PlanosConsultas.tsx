@@ -59,7 +59,7 @@ export default function TiposConsultas() {
             className={classNames(
               tier.featured
                 ? "relative bg-orange-100 shadow-2xl"
-                : "bg-white/90 shadow-sm sm:mx-8 lg:mx-0",
+                : "bg-white/90 shadow-sm ",
               tier.featured
                 ? ""
                 : tierIdx === 0
